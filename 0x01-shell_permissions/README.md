@@ -6,3 +6,4 @@
 6. Script to  make a file executable.
 7. Multiple permissions.
 8. Giving executabel permission to everybody.
+9. Restricting permissions to owner and group and allowing all access to others.
