@@ -1,2 +1,1 @@
-#!/bin/bash
-su betty
+1. Switching users.
