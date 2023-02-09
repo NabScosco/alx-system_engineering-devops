@@ -2,4 +2,5 @@
 2. Asking for the username of the current user.
 3. Listing all the groups the current user is part of.
 4. Changing the owner of a file.
-5. To create a new file
+5. To create a new file.
+6. Script to  make a file executable.
