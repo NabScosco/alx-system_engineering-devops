@@ -4,3 +4,4 @@
 4. Changing the owner of a file.
 5. To create a new file.
 6. Script to  make a file executable.
+7. Multiple permissions.
