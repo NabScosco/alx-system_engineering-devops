@@ -8,3 +8,4 @@
 8. Giving executabel permission to everybody.
 9. Restricting permissions to owner and group and allowing all access to others.
 10. writing a Script to change the mode too -rwxr-x-wx.
+11. changing two files to have the same permissions.
