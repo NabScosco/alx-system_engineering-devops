@@ -1,2 +1,2 @@
 #!/bin/bash
-less /etc/passw /etc/hosts | less
+cat /etc/passwd/etc/hosts
