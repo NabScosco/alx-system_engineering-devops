@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type d | wc -1 | xargs -I {} sh -c 'echo "Number of directories and Subdirectories in the current directory: $(({} - 1))"'
