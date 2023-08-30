@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# shellcheck disable=SC2009
-
-ps -e -o pid,ppid,user,%cpu,%mem,stat,start,time,cmd --forest | grep "bash" | grep -v "grep bash"
-
