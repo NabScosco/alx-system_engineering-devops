@@ -8,4 +8,3 @@ file { '/tmp/school':
   group    => 'www-data', # Set file group to www-data
   content  => 'I love Puppet', # Set the content of the file
 }
-
