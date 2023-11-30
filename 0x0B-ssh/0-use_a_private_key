@@ -6,3 +6,4 @@ SERVER_IP="54.84.129.148"
 ssh -i ~/.ssh/school ubuntu@54.84.129.148
 
 exit
+
