@@ -1,7 +1,5 @@
 #!/bin/bash
 
 # loging in to a local host
-
-# Use ssh with the private key and the specified user
 ssh -i ~/.ssh/school ubuntu@54.84.129.148
 
