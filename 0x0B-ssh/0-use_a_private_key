@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # SSh dcnnection to the server using a private key
 
 ssh -i ~/.ssh/school ubuntu@54.84.129.148
