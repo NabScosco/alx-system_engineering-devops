@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Connect to the server using a private key
+# SSh dcnnection to the server using a private key
 
-SERVER_IP="54.84.129.148"
 ssh -i ~/.ssh/school ubuntu@54.84.129.148
-
-exit
-
