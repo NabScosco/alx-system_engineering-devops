@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 
 # SSh dcnnection to the server using a private key
 
