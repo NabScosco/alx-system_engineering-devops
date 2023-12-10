@@ -7,3 +7,4 @@ rm /etc/ngix/sites-enabled/default
 ln -s /ect/nginx/sites-available/default /etc/nginx/sites-enabled/default
 # retart nginx
 service nginx restart
+
