@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
-# Configuration of Ngix server to listen on port 80.
+# This script configures a server to make Nginx listen on port 80
 
-# remove the default Ngix default configuration file
-rm /etc/ngix/sites-enabled/default
-# configure Nginx to listen on port 80 for all active IPv4 IPs
-ln -s /ect/nginx/sites-available/default /etc/nginx/sites-enabled/default
-# retart nginx
-service nginx restart
+# Install Nginx
+sudo apt-get update
+sudo apt-get install -y nginx
 
+# Start Nginx
+sudo service nginx start
