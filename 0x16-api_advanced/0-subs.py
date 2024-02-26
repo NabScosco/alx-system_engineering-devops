@@ -1,32 +1,21 @@
 #!/usr/bin/python3
-"""
-0-subs
-"""
-
+""" Exporting csv files"""
+import json
 import requests
+import sys
+
 
 def number_of_subscribers(subreddit):
-    """
-    Function that queries the Reddit API
-    and returns the number of subscribers
-    for a given subreddit.
-    """
-    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-
-    response = requests.get(url, headers=headers, allow_redirects=False)
-
-    if response.status_code == 200:
-        return response.json().get('data', {}).get('subscribers', 0)
+    """Read reddit API and return number subscribers """
+    username = 'ledbag123'
+    password = 'Reddit72'
+    user_pass_dict = {'user': username, 'passwd': password, 'api_type': 'json'}
+    headers = {'user-agent': '/u/ledbag123 API Python for Holberton School'}
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
+    client = requests.session()
+    client.headers = headers
+    r = client.get(url, allow_redirects=False)
+    if r.status_code == 200:
+        return (r.json()["data"]["subscribers"])
     else:
-        return 0
-
-if __name__ == "__main__":
-    number_of_subscribers = __import__('0-subs').number_of_subscribers
-    import sys
-
-    if len(sys.argv) < 2:
-        print("Please pass an argument for the subreddit to search.")
-    else:
-        print("{:d}".format(number_of_subscribers(sys.argv[1])))
-
+        return(0)
