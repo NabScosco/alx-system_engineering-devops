@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# This script fixes Nginx not listening on port 80
+# Configures an Nginx server to listen on port 80.
 
-sudo apt-get -y update
-sudo apt-get -y install nginx
-sudo service nginx start
-
+# Creates a symbolic link (-s option) between the Nginx configuration file
+# and the enabled sites directory
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+#restart nginx
+service nginx start
+# terminates the first nginx process ID
+kill "$(pgrep 'nginx' | head -1)"
