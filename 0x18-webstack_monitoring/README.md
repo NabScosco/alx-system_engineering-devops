@@ -3,10 +3,10 @@
 
 |Concepts|
 |:--     |
-|For this project, we expect you to look at these concepts:</br> * [Monitor](https://intranet.alxswe.com/concepts/13)<br> * [Server](https://intranet.alxswe.com/concepts/67)|
+|For this project, we expect you to look at these concepts:</br> -  [Monitor](https://intranet.alxswe.com/concepts/13)<br> -[Server](https://intranet.alxswe.com/concepts/67)|
 
 **Monitoring**
-![Server Side Architecture](/images/monitoring.png "Monitoring Architecture")
+![Server Side Architecture](/images/mornitor2.png "Monitoring Architecture")
 
 
 Background Context
