@@ -3,9 +3,9 @@
 
 |Concepts|
 |:--     |
-|For this project, we expect you to look at these concepts:
-     * [Monitor](https://intranet.alxswe.com/concepts/13)
-     * [Server](https://intranet.alxswe.com/concepts/67)|
+|For this project, we expect you to look at these concepts:|
+|    * [Monitor](https://intranet.alxswe.com/concepts/13)|
+|    * [Server](https://intranet.alxswe.com/concepts/67)|
 
 **Monitoring**
 ![Server Side Architecture](/imagies/monitoring.png "Monitoring Architecture")
