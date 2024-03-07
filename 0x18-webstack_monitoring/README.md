@@ -1,6 +1,7 @@
 # 0x18. Webstack monitoring
 
-==DevOps== ==SysAdmin== ==monitoring==
+<DevOps> <SysAdmin> <monitoring>
+
  By: Sylvain Kalache, co-founder at Holberton School
  Weight: 1
  Project will start Mar 5, 2024 6:00 AM, must end by Mar 7, 2024 6:00 AM
