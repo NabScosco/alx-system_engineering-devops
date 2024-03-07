@@ -1,14 +1,14 @@
-#0x18. Webstack monitoring
+# 0x18. Webstack monitoring
 
 
 |Concepts|
 |:--     |
-|For this project, we expect you to look at these concepts:|
-|    * [Monitor](https://intranet.alxswe.com/concepts/13)|
-|    * [Server](https://intranet.alxswe.com/concepts/67)|
+|For this project, we expect you to look at these concepts: </br> 
+     - [Monitor](https://intranet.alxswe.com/concepts/13)  
+     - [Server](https://intranet.alxswe.com/concepts/67)|
 
 **Monitoring**
-![Server Side Architecture](/imagies/monitoring.png "Monitoring Architecture")
+![Server Side Architecture](/images/monitoring.png "Monitoring Architecture")
 
 
 Background Context
