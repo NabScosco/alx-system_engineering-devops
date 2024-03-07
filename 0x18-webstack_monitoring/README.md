@@ -2,16 +2,14 @@
 
 <DevOps> <SysAdmin> <monitoring>
 
- By: Sylvain Kalache, co-founder at Holberton School
- Weight: 1
- Project will start Mar 5, 2024 6:00 AM, must end by Mar 7, 2024 6:00 AM
- Checker was released at Mar 5, 2024 6:00 PM
- An auto review will be launched at the deadline
-Concepts
-For this project, we expect you to look at these concepts:
+|Concepts|
+|:--     |
+|For this project, we expect you to look at these concepts:
+     * [Monitor](https://intranet.alxswe.com/concepts/13)
+     * [Server](https://intranet.alxswe.com/concepts/67)|
 
-Monitoring
-Server
+**Monitoring**
+![Server Side Architecture](/imagies/monitoring.png "Monitoring Architecture")
 
 
 Background Context
